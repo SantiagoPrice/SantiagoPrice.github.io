@@ -60,11 +60,11 @@
   ],
   "awards": [
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "url": "",
-      "summary": ""
+      "title": " ",
+      "date": " ",
+      "awarder": " ",
+      "url": " ",
+      "summary": " "
     }
   ],
   "certificates": [
@@ -92,11 +92,11 @@
       "summary": ""
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Design of a Multi-Degree-of-Freedom Elastic Neck Exoskeleton for Persons with Dropped Head Syndrome}",
+      "publisher": "6th IEEE-RAS International Conference on Soft Robotics (RoboSoft)",
+      "releaseDate": "",
+      "url": "https://ieeexplore.ieee.org/document/10122051",
+      "summary": ""
     }
   ],
   "skills": [
@@ -127,38 +127,46 @@
     }
   ],
   "interests": [
-    {
-      "name": "Physics",
+    { 
+      "name": "Engineering",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Robotics",
+        "Embedded Systems",
+        "Automation",
+        "Capoeira"
+      ]
+    },
+    { 
+      "name": "Sports",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Football",
+        "Runnning",
+        "Bouldering",
+        "Capoeira"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Kenji Suzuki",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "PhD Advisor"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Hugo Ramon Soul",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Undergraduate and master`s degree advisor"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
+      "name": "Bioinspired design of a robotic hand using shape memory alloys (SMA)",
+      "summary": "Development of a tendon driven system base on (SMA) to actuate robotics finger for prosthetic devices",
+      "highlights": ["Shape Memory Alloys", "Soft Robotics", "Additive Manufacturing Techniques"],
+      "startDate": "2019-01-01",
+      "endDate": "2021-06-01",
       "url": "https://example.com"
     }
   ]
