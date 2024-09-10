@@ -66,19 +66,20 @@
   contents:
     - title: Experienced research skills
       items: 
-        - Analitical thinking, problem solving, Experiment Design,collaboration, data analysis, technical writing
-    - title: Experienced engeering skills
+        - Analitical thinking, Problem Solving, Experiment Design, Collaboration, Data Analysis, Technical Writing
+    - title: Experienced engineeiring skills
       items: 
         - <u>Programming language:</u> Python, MATLAB, C++, Arduino
+        - <u>AI tools:</u> TensorFlow, Google Colab
         - <u>3D/2D Modelling:</u> Solid works, AutoCAD, Inventor
         - <u>Version control tool:</u> Git 
         - <u>Operating system:</u> Linux, Windows
-        -
         - <u>Other software tools:</u> ROS, LATEX
 
         - <u>Sensor experience:</u> IMU, Multi-axial force sensor (FSR), Motion capture
     - title: Ongoing knowledge/skill
-      items: Motion planning, Reinforcement learning, etc.
+      items:
+        - Autonomus Navigation, etc.
 - title: Other Interests
   type: list
   contents:
