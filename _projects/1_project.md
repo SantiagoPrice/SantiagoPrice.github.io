@@ -1,81 +1,39 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: project 1, A Neck Exoskeleton for persons Dropped Head Syndrome
+description: Development and evaluation of compliant brace to assist the neck mobility of user with DHS
+img: assets\img\publication_preview\mechanismScheme.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project involves the design, development and evaluation of a compliant neck exoskeleton for patients with Dropped head Syndrome(DHS). This affection weekens the neck extensot muscles resulting in cervical kyphosis. This deformity severely deteriorates gait, breathing and swallowing and current orthosis does not succesfully address this issues.
+These reasons motivated me to explore alternative alternative solutions for a Daily Support device.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our first achievement, came on the design of an actuation unit to support the head. Inspires by beam exoskeletons and continum robots, we design a multidirection leaf-spring mechanism of adjustable stiffness. The core of the system ia group of carbon fiber whose bending stiffness is adjusted by preloading the springs at the bottom shown in the figure.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager"assets\img\publication_preview\device_schem_back_front.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    First prototype schematics. During flexion, the bottom end of the bars move compressing the springs. Preloading them with the adjustable plate modify the bar`s mechanical coupling regulating the system flexibility. {% cite santi_robosoft %}. 
 </div>
+This work which includes the teoretical model and experimental validation of the actuator and preeliminary user evaluation was presented at the Robosoft Conference 6th IEEE-RAS International Conference on Soft Robotics (RoboSoft). 
+
+The following steps involved increasing the stiffness range of the actuator to probide significant head support. Simultaneousky, we redesign the transmition sistem to decouple the head from the device during neck rotation, a motion that does not requires assitance and is highly prevalent in activities of daily life. 
+The system was evaluated in persons with no preconditions proving it provides adjustable support on the sagittal plane without constrining rotations
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager"assets\img\publication_preview\device_schem_back_front.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Device schematics. The actuation unit assist the head motion onthe saggital plan. The vertical rail transmit force on the orizontal plane of head only prenting to compress the spine. The horizontal raill allows free neck rotation {% cite santi_ral %}. 
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+At the current stage, we are starting clinical evaluation with end users to evaluate its effect on mobility. Our hypothesis is that the neck brace can enheance the neck posture and increase the range of motion of the neck.  

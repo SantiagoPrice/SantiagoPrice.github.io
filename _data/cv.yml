@@ -53,10 +53,10 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    - title: <a href="https://github.com/SantiagoPrice/IMU_ADQ_pck">neck-GUI-pck</a>
       year: 2023-now
       description: A graphical user interface (GUI) designed to offer intuitive guidance on various head movements.
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    - title: <a href="https://github.com/SantiagoPrice/MOCAP-EMG-proc">c3d-proc</a>
       year: 2023-now
       description: Library for processing and visualizing  EMG and motion capture (MOCAP) data from C3D files
 
@@ -75,7 +75,6 @@
         - <u>Version control tool:</u> Git 
         - <u>Operating system:</u> Linux, Windows
         - <u>Other software tools:</u> ROS, LATEX
-
         - <u>Sensor experience:</u> IMU, Multi-axial force sensor (FSR), Motion capture
     - title: Ongoing knowledge/skill
       items:
@@ -83,4 +82,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Soccer, Reunning, Capoeira.
+    - <u>Hobbies:</u> Soccer, Running, Capoeira.
