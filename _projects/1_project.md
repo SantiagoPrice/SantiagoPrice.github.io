@@ -16,7 +16,7 @@ Our first achievement, came on the design of the actuation unit to support the h
 This work which includes the teoretical model and experimental validation of the actuator and preeliminary user evaluation was presented at the Robosoft Conference 6th IEEE-RAS International Conference on Soft Robotics (RoboSoft).
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\mechanismScheme.jpg" title="example image" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets\img\mechanismScheme.jpg" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ The system was evaluated in persons with no preconditions proving its effective 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\device_schem_back_front.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets\img\device_schem_back_front.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
