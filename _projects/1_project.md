@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Neck Exoskeleton for persons Dropped Head Syndrome
+title: A Neck Exoskeleton for persons with DHS
 description: Development and evaluation of compliant brace to assist the neck mobility of user with DHS
 img: assets/img/mechanismScheme.jpg
 importance: 1
@@ -15,7 +15,7 @@ Our first achievement, came on the design of the actuation unit to support the h
 
 This work which includes the teoretical model and experimental validation of the actuator and preeliminary user evaluation was presented at the Robosoft Conference 6th IEEE-RAS International Conference on Soft Robotics (RoboSoft).
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-６ mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mechanismScheme.jpg" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
