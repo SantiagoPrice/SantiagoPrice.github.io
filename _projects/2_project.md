@@ -11,17 +11,16 @@ related_publications: true
 This work involved and development of a tendon driven mechanism for a robotic finger actuated by Nitinol wires. Nitinol is a Niquel-Titanium alloy with the particular property of recovering the shape when being heat up. In that sense, this elements can actuates as muscles when contracting by heat after being prestrech as the video shows. As observed, the diminute actuator is capable to move a much heavier, which makes this technology a promissing as a lightweight but powerfull actuation system for wearable devices. 
 
 <div class="row">
-
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/Nitinol_lifting.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-
 </div>
 <div class="caption">
     Nitinol spring lifting 400 grams of weight after applying heat. Source:  <a href="https://www.youtube.com/watch?v=-K57cbOhA5g&t=158s">Youtube</a>
 </div>
 
 The developed sistem consist on an anthropomorphic robotic finger driven by a Nitinol wire pair. This wires are heated by an electric current to move the fingers. The Protagonist wire function will bend the finger while the Antagonist wire will extend it. The following video illustrates the finger actuation cycle.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/actuacion_prototipo_final_1ciclo_enh.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
