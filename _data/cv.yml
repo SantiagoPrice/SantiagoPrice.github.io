@@ -78,7 +78,18 @@
     - title: Ongoing knowledge/skill
       items:
         - Autonomus Navigation, etc.
-- title: Other Interests
-  type: list
+
+- title: Academic Service
+  type: map
   contents:
-    - <u>Hobbies:</u> Soccer, Running, Capoeira, Literature.
+      - name: Reviewer
+        value: RAL 2024
+
+
+- title:  Other Interests
+  type: map
+  contents:
+      - name: Hobbies
+        value: Soccer, Running, Capoeira, Literature.
+
+
