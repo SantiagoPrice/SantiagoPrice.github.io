@@ -9,7 +9,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph. D. in Engineering
+    - title: Ph.D. in Engineering
       institution:  <a href="https://www.imis.tsukuba.ac.jp/">Doctoral Program in Intelligent and Mechanical Interaction System</a>, University of Tsukuba, Japan
       year: 2025
       description:
@@ -37,11 +37,29 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Researcher
+      institution: University of Tsukuba, Japan
+      year: 2025/04-Now
+      description:
+        - Automating wheelchair tasks to support users with motor impairments
+
+    - title: Visiting Researcher
+      institution: Sony CSL, Japan
+      year: 2025/04-Now
+      description:
+        - Developing digital fabric modeling to speed up product development
+
+    - title: Research Assistant
+      institution: Sony CSL, Japan
+      year: 2024/09-2025/03
+      description:
+        - Creating audio datasets for AI applications
+
     - title: Research Assistant, HCPS Fusion Systematization Basic Technology Development
       institution: University of Tsukuba, Japan
       year: 2024/07-2024/09
       description:
-        - Software development to autonomously drive wheelchairs based on odometry and LiDAR sensor scans. 
+        - Coding support for an autonomous electric wheelchair. 
 
     - title: Teaching Assistant, Mechatronics Basics and Applications
       institution: University of Tsukuba, Japan
@@ -53,10 +71,10 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/SantiagoPrice/IMU_ADQ_pck">neck-GUI-pck</a>
-      year: 2023-now
+      year: 2022-2023
       description: A graphical user interface (GUI) designed to offer intuitive guidance on various head movements.
     - title: <a href="https://github.com/SantiagoPrice/MOCAP-EMG-proc">c3d-proc</a>
-      year: 2023-now
+      year: 2022-2023
       description: Library for processing and visualizing  EMG and motion capture (MOCAP) data from C3D files
 
 
@@ -68,16 +86,11 @@
         - Analitical thinking, Problem Solving, Experiment Design, Collaboration, Data Analysis, Technical Writing
     - title: Experienced engineeiring skills
       items: 
-        - <u>Programming language:</u> Python, MATLAB, C++, Arduino
-        - <u>AI tools:</u> TensorFlow, Google Colab
+        - <u>Programming languages:</u> Python, MATLAB, C++
+        - <u>Coding frameworks:</u> Nav2, ROS, TensorFlow
+        - <u>Version control tools:</u> Git         
         - <u>3D/2D Modelling:</u> Solid works, AutoCAD, Inventor
-        - <u>Version control tool:</u> Git 
-        - <u>Operating system:</u> Linux, Windows
-        - <u>Other software tools:</u> ROS, LATEX
         - <u>Sensor experience:</u> IMU, Multi-axial force sensor (FSR), Motion capture
-    - title: Ongoing knowledge/skill
-      items:
-        - Autonomus Navigation, etc.
 
 - title: Academic Service
   type: map
